@@ -11,6 +11,8 @@ import android.widget.Toast;
 
 public class second extends AppCompatActivity {
 
+    //setting variable for button
+
     Button shareButton , webButton , fileButton;
 
     @Override
@@ -18,9 +20,13 @@ public class second extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
+        //setting on find view by id
+
         shareButton = (Button) findViewById(R.id.button1);
         webButton = (Button) findViewById(R.id.button2);
         fileButton = (Button) findViewById(R.id.button3);
+
+        //setting onClick listener and implementing functions to all the respective button
 
         shareButton.setOnClickListener(new View.OnClickListener() {
             @Override

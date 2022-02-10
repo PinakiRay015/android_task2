@@ -12,6 +12,8 @@ import android.widget.Toast;
 
 public class shareData extends AppCompatActivity {
 
+    //setting variable for textView and Button
+
     EditText data;
     Button shareButton;
 
@@ -19,6 +21,8 @@ public class shareData extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_share_data);
+
+        //setting find view  by id for textView and button and implementing functions
 
         data = (EditText) findViewById(R.id.data);
         shareButton = (Button) findViewById(R.id.shareButton);

@@ -9,12 +9,16 @@ import android.widget.TextView;
 
 public class fileSend extends AppCompatActivity {
 
+    //setting variable for textview
+
     TextView txt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_file_send);
+
+        txt = (TextView) findViewById(R.id.txt);
 
         txt.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -10,12 +10,16 @@ import android.widget.Button;
 
 public class webPage extends AppCompatActivity {
 
+    //setting variable Button
+
     Button instagram , whatsapp , youtube;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web_page);
+
+        //setting find view  by id button and implementing functions
 
         instagram = (Button) findViewById(R.id.instgram);
         whatsapp = (Button) findViewById(R.id.whatsapp);
